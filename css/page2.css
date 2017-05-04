@@ -1,0 +1,48 @@
+*{margin: 0;padding: 0;list-style: none;border: 0;outline: none;font-size: 0;}
+html{font-size: 16px;}
+.container{width: 100%;}
+/*headbar*/
+.headbar{width:100%;background: white;position: fixed;top: 0;z-index: 100;}
+.headbar .img1{float: left;width: 10%;margin-left: 5%;margin-top: 1.5%;}
+.headbar .img2{float: left;width: 40%;margin-left: 16%;margin-top: 1.5%;}
+.headbar .img3{float: right;width: 8%;margin-right: 2.5%;margin-top: 1%;}
+/*imgbar*/
+.imgbar{width: 100%;height: 100%;border: 0;margin-top: 12%;}
+/*body*/
+.body{width: 100%;margin-top: 2%;}
+.body .body1{width: 95%;margin:0 auto;position: relative;}
+.body .body1 img{width: 100%;}
+.body .body1 p{position: absolute;background-color: black;opacity: 0.5;width: 100%;height: 2rem;margin-top: -2rem;font-size: 1.2rem;color: white;line-height: 2rem;}
+
+.body .body2{width: 95%;margin:0 auto;position: relative;margin-top: 2%;}
+.body .body2 img{width: 100%;}
+.body .body2 p{position: absolute;background-color: black;opacity: 0.5;width: 100%;height: 2rem;margin-top: -2rem;font-size: 1.2rem;color: white;line-height: 2rem;}
+
+.body .body3{width: 95%;margin:0 auto;position: relative;margin-top: 2%;}
+.body .body3 img{width: 100%;}
+.body .body3 p{position: absolute;background-color: black;opacity: 0.5;width: 100%;height: 2rem;margin-top: -2rem;font-size: 1.2rem;color: white;line-height: 2rem;}
+
+.body .body4{width: 95%;margin:0 auto;position: relative;margin-top: 2%;}
+.body .body4 img{width: 100%;}
+.body .body4 p{position: absolute;background-color: black;opacity: 0.5;width: 100%;height: 2rem;margin-top: -2rem;font-size: 1.2rem;color: white;line-height: 2rem;}
+
+/*footer*/
+.footer{width: 100%;margin-top: 3%;text-align: center;margin-bottom: 25%;}
+.footer .p1{color: red;font-size: 1.5rem;margin-bottom: 1rem;}
+.footer input{width: 90%;height:2rem;margin: 0 auto;font-size: 1rem;}
+.footer .p2{width:90%;padding: 0.75rem 0;font-size: 1rem;margin: 0 auto;color: white;background: red;}
+
+/*footer bar*/
+.footerbar{width: 100%;background: rgb(46,62,80);position: fixed;top: 100%;margin-top: -12%;}
+.footerbar .detail1,.footerbar .detail2,.footerbar .detail3{float: left;text-align: center;}
+.footerbar .detail1{margin-left: 5%;}
+.footerbar .detail1 img{width: 80%;}
+.footerbar .detail1 p{font-size: 1rem;}
+
+.footerbar .detail2{margin-left: 20%;}
+.footerbar .detail2 img{width: 80%;}
+.footerbar .detail2 p{font-size: 1rem;}
+
+.footerbar .detail3{margin-left: 16%;}
+.footerbar .detail3 img{width: 80%;}
+.footerbar .detail3 p{font-size: 1rem;}
