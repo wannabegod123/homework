@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  </head>
+  <body>
+    <!--删格系统 $ container-->    
+	   
+	 <!--container 和 container-fulid的区别-->  
+	<div class="container" style="background: red;">
+		<div class="row" style="background: lightskyblue;">
+			<div class="col-md-6">col-md-6</div>
+			<div class="col-md-6">col-md-6</div>
+		</div>
+	</div>
+	
+	<div class="container" style="background: red;">
+		<div class="row" style="background: pink;">
+			<!-- 屏幕小的时候 分成4份子 大的时候 2份  这样可以做响应式 -->
+			<div class="col-md-6 col-sm-3">col-md-6 & col-md-3</div>
+			<div class="col-md-6 col-sm-3">col-md-6 & col-md-3</div>
+			<div class="col-md-6 col-sm-3">col-md-6 & col-md-3</div>
+			<div class="col-md-6 col-sm-3">col-md-6 & col-md-3</div>
+		</div>
+	</div>
+	
+	<div class="container" style="background: red;">
+		<div class="row" style="background: yellow;">
+			<!--永远4列-->
+			<div class="col-3">col-3</div>
+			<div class="col-3">col-3</div>
+			<div class="col-3">col-3</div>
+			<div class="col-3">col-3</div>
+		</div>
+	</div>
+	
+	
+	<!--可以把以上的行都放进去 写到一个container里面-->
+	<div class="container" style="background: red;">
+		<div class="row" style="background: lightskyblue;">
+			<div class="col-md-6">col-md-6</div>
+			<div class="col-md-6">col-md-6</div>
+		</div>
+		<div class="row" style="background: pink;">
+			<!-- 屏幕小的时候 分成4份子 大的时候 2份  这样可以做响应式 -->
+			<div class="col-md-6 col-sm-3">col-md-6 & col-md-3</div>
+			<div class="col-md-6 col-sm-3">col-md-6 & col-md-3</div>
+			<div class="col-md-6 col-sm-3">col-md-6 & col-md-3</div>
+			<div class="col-md-6 col-sm-3">col-md-6 & col-md-3</div>
+		</div>
+		<div class="row" style="background: yellow;">
+			<!--永远4列-->
+			<div class="col-3">col-3</div>
+			<div class="col-3">col-3</div>
+			<div class="col-3">col-3</div>
+			<div class="col-3">col-3</div>
+		</div>
+	</div>
+	
+	
+	
+	<div class="container-fluid" style="background: greenyellow;">
+		container-fluid
+	</div>
+	    
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+</html>
