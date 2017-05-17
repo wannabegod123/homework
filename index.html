@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link href="https://cdn.bootcss.com/Swiper/3.4.2/css/swiper.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <script>
+        var _html = document.getElementsByTagName("html")[0];
+        var ch = document.documentElement.clientWidth;
+        ch>750?_html.style.fontSize = "40px":_html.style.fontSize = ch/16+"px";
+    </script>
+</head>
+<body>
+    <!--header-->
+    <header>
+        <img src="img/home/logo.png" alt="">
+        <div>
+            <img src="img/home/landing.png" alt="">
+            <img src="img/home/top_icon1.png" alt="">
+        </div>
+    </header>
+
+    <!--swiper-->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="img/home/banner-img1.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/home/banner-img2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/home/banner-img3.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/home/banner-img4.jpg" alt="">
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+
+    <!--container-->
+    <ul class="container">
+        <li class="item">
+            <img src="img/home/item1.jpg" alt="" class="item_img">
+            <div class="item_msg">
+                <h2>韩都依舍韩版2015秋装新款女装翻领绣花图案长袖衬衫</h2>
+                <div class="item_price">
+                    <div class="item_price_left">
+                        <p>￥260<span>￥433</span></p>
+                        <p>6折</p>
+                    </div>
+                    <div class="item_price_right">
+                        <img src="img/home/index.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="item">
+            <img src="img/home/item1.jpg" alt="" class="item_img">
+            <div class="item_msg">
+                <h2>韩都依舍韩版2015秋装新款女装翻领绣花图案长袖衬衫</h2>
+                <div class="item_price">
+                    <div class="item_price_left">
+                        <p>￥260<span>￥433</span></p>
+                        <p>6折</p>
+                    </div>
+                    <div class="item_price_right">
+                        <img src="img/home/index.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+    <!--footer-->
+    <footer>
+        <ul>
+            <li class="footer_li1">
+                <img src="img/home/index-1.png" alt="">
+                <p>首页</p>
+            </li>
+            <li>
+                <img src="img/home/list.png" alt="">
+                <p>分类</p>
+            </li>
+            <li>
+                <img src="img/home/search.png" alt="">
+                <p>搜索</p>
+            </li>
+           <li>
+                <img src="img/home/more.png" alt="">
+                <p>更多</p>
+            </li>
+        </ul>
+    </footer>
+
+</body>
+</html>
+
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
+<script type="text/javascript">
+    var mySwiper = new Swiper('.swiper-container',{
+        prevButton:'.swiper-button-prev',
+        nextButton:'.swiper-button-next',
+        pagination : '.swiper-pagination',
+        speed:2500,
+        loop : true,
+        autoplay:true,
+    })
+</script>
+<script src="js/index.js"></script>

@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+img{
+    border:none;
+    outline: none;
+}
+body{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+header{
+    width: 100%;
+    height:2rem;
+    background:rgb(211,19,123);
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index:100;
+}
+header>img{
+    float: left;
+    width:6rem;
+    height:1.2rem;
+    padding:11px 0 0 0.8rem;
+}
+header>div{
+    float: right;
+    height:1.2rem;
+    padding:16px 0.8rem 0 0;
+}
+header>div>img{
+    padding-left: 0.4rem;
+    box-sizing:border-box;
+}
+
+/*swiper*/
+.swiper-container{
+    width: 100%;
+    height: 7.5rem;
+}
+.swiper-container img{
+    width: 100%;
+    height:100%;
+}
+.swiper-pagination-bullet-active{
+    width: 0.4rem;
+    height: 0.4rem;
+    background: rgb(211,19,123);
+}
+.swiper-pagination-bullet{
+    width: 0.4em;
+    height: 0.4rem;
+}
+
+
+/*   container  */
+.container{
+    padding:0.2rem;
+}
+.container .item{
+    width: 100%;
+    height:4rem;
+    padding-bottom: 0.5rem;
+}
+.container .item .item_img{
+    float: left;
+    width: 30%;
+    height:100%;
+}
+.container .item .item_msg{
+    float: left;
+    width: 66%;
+    height:100%;
+}
+.container .item_msg h2{
+    padding:0 0 0 2%;
+    font-size: 25px;
+    height:50%;
+}
+.container .item_msg .item_price{
+    height: 50%;
+    overflow: hidden;
+}
+.item_price .item_price_left{
+    float: left;
+}
+.item_price .item_price_left p:first-of-type{
+    color: rgb(244,42,115);
+}
+.item_price .item_price_left p span{
+    font-size: 25px;
+    padding-left: 1rem;
+    text-decoration: line-through;
+    color: #ccc;
+}
+.item_price .item_price_left p:last-of-type{
+    font-size: 25px;
+    padding-left: 0.2rem;
+}
+.item_price .item_price_right{
+    float: right;
+    width: 1.6rem;
+    height: 1rem;
+    background: rgb(244,42,115);
+    border-radius: 0.2rem;
+    text-align: center;
+    margin-top: 4%;
+    margin-right: 10%;
+}
+.item_price .item_price_right img{
+    padding-bottom: 0.08rem;
+    padding-right: 0.1rem;
+}
+
+/*footer*/
+footer{
+    position: fixed;
+    width: 100%;
+    height:2rem;
+    bottom:0;
+}
+footer .footer_li1{
+    background:rgb(244,42,115);
+}
+footer ul li{
+    float: left;
+    width: 25%;
+    height:100%;
+    text-align: center;
+    background: rgb(82,72,77);
+    padding:0.1rem 1rem 0.1rem 1rem;
+    box-sizing: border-box;
+}
+footer ul li p{
+    font-size: 25px;
+}
