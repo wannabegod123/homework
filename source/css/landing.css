@@ -1,0 +1,116 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+	width: 100%;
+}
+body{
+	width: 100%;
+	background: #F2EFEF;
+}
+header{
+	width: 100%;
+	height: 88px;
+	background: #D2137B;
+}
+.head{
+	width: 90%;
+	margin: 0 auto;
+}
+.left{
+	width: 10%;
+	display: block;
+	float: left;
+	margin-top: 20px;
+}
+.font{
+	width: 93px;
+	display: block;
+	float: left;
+	margin-left: 35%;
+	margin-top: 20px;
+}
+
+article{
+	width: 100%;
+	padding-top: 30px;
+}
+article form{
+	width: 90%;
+	margin: 0 auto;
+}
+article form .warning li{
+	list-style: none;
+	display: block;
+	background: url(../img/login/gantan.png) no-repeat left center;
+	padding-left: 20px;
+	color: red;
+	font-size: 1.3em;
+	line-height: 2em;
+	display: none;
+}
+article form input{
+	box-sizing: border-box;
+	padding-left: 10px;
+	border-radius: 15px;
+	width: 100%;
+	height: 2em;
+	display: block;
+	outline: none;
+	border: none;
+	margin-bottom: 5px;
+	background: white;
+	font-size: 25px;
+}
+article form label{
+	width: 100%;
+	height: 50px;
+	display: block;
+}
+article form label input{
+	display: block;
+	float: left;
+	width: 40px;
+	height: 40px;
+}
+article form label p{
+	padding-left: 10px;
+	display: block;
+	float: left;
+	font-size: 25px;
+	line-height: 40px;
+}
+article form label span{
+	padding-left: 35px;
+	display: block;
+	float: left;
+	font-size: 25px;
+	color: #FC477A;
+	line-height: 40px;
+}
+.submit{
+	border-radius: 14px;
+	display: block;
+	width: 95%;
+	margin: 0 auto;
+	height: 2em;
+	background: url(../img/login/login_line.png) repeat-x;
+	color: white;
+	font-size: 35px;
+	margin-bottom: 10px;
+	text-align: center;
+	line-height: 88px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+

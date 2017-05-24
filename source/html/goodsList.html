@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=0.7,user-scalable=no"/>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/topCommon.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/goodsList.css"/>
+	</head>
+	<body>
+		<!--<div class="goodsList"></div>-->
+		<!--header部分-->
+		<header>
+			<section style="z-index: 99;">
+				<logo class="left"><img src="../img/search/top_leftBtn.png"/></logo>
+				<span><img src="../img/search/top_icon2.png"/></span>
+				<span><img src="../img/search/top_icon1.png"/></span>
+				<span style="padding-right: 8%;"><img src="../img/search/top_middle.png"/></span>
+			</section>
+		</header>
+		<!--主体部分-->
+		<article class="main" style="overflow: hidden;">
+			<ul class="goodsBox">
+				<!--<li>
+					<p class="goodsPto"></p>
+					<div class="goodsName"></div>
+					<span class="goodsPrice"></span>
+				</li>-->
+			</ul>
+		</article>
+		<!--footer部分-->
+		<footer>
+			<div class="null" style="width: 100%;height: 100%;"></div>
+			<section class="foot">
+				<a href="index.html">
+					<span class="bg"><img src="../img/search/foot_bg1.png"/></span>
+					<p>首页</p>
+				</a>
+				<a href="list.html" class="footBg">
+					<span class="bg"><img src="../img/list/foot_icon2.jpg"/></span>
+					<p>分类</p>
+				</a>
+				<a href="search.html">
+					<span class="bg"><img src="../img/search/foot_bg3.png"/></span>
+					<p>搜索</p>
+				</a>
+				<a href="more.html">
+					<span class="bg"><img src="../img/search/foot_bg4.png"/></span>
+					<p>更多</p>
+				</a>
+			</section>
+		</footer>
+		
+		<script type="text/javascript" src="../js/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="../js/public.js"></script>
+		<script type="text/javascript" src="../js/list.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				jump($(".carList"));
+			})
+		</script>
+	</body>
+</html>

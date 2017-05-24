@@ -1,0 +1,54 @@
+.main{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 15px;
+}
+.goodsBox{
+	width: 100%;
+	float: left;
+}
+.goodsBox li{
+	box-sizing: border-box;
+	border: soid 1px black;
+	width: 33.3%;
+	list-style: none;
+	float: left;
+}
+.goodsBox li p{
+	box-sizing: border-box;
+	text-align: center;
+	padding: 5px;
+	width: 100%;
+	/*height: 190px;*/
+	overflow: hidden;
+}
+.goodsBox li p img{
+	width: 100%;
+	height: 169px;
+	min-height: 169px;
+}
+.goodsBox li div{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 5px;
+	font-size: 20px;
+	line-height: 22px;
+	height: 44px;
+	overflow: hidden;
+}
+.goodsBox li span{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 5px;
+	text-align: center;
+	color: #E98EAE;
+	height: 40px;
+	line-height: 40px;
+}
+
+
+
+
+				
+
+

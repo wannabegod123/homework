@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=0.7,user-scalable=no"/>
+		<title>登陆页面</title>
+		<link rel="stylesheet" type="text/css" href="../css/landing.css"/>
+	</head>
+	<body>
+		<header>
+			<div class="head">
+				<span class="left"><img src="../img/landing/top_logo.png"/></span>
+				<span class="font"><img src="../img/landing/top_font.png"/></span>
+			</div>
+		</header>
+		<article>
+			<form action="" method="post">
+				<ul class="warning">
+					<li class="landTip1">您的用户名与密码不符</li>
+					<li class="landTip2">您好！您的用户名不存在</li>
+					<li class="null">您好！用户名或密码不能为空</li>
+				</ul>
+				<input type="text" placeholder="请输入账户" id="username"/>
+				<input type="text" placeholder="请输入密码" id="pwd1" style="margin-bottom: 50px;"/>
+				<label for="">
+					<input type="checkbox" name="checkbox" class="checkbox"/>
+					<p>显示密码</p>
+					<span>忘记密码?</span>
+				</label>
+				<label for="">
+					<input type="checkbox" name="checkbox" class="checkbox"/>
+					<p>记住密码自动登录</p>
+				</label>
+				<a class="submit" id="landBtn" style="margin-top: 45px;">登陆</a>
+				<a href="login.html" class="submit">注册</a>
+			</form>
+		</article>
+		<script type="text/javascript" src="../js/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="../js/landing.js"></script>
+	</body>
+</html>

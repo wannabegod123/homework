@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css">
+
+    <script>
+        var _html = document.getElementsByTagName("html")[0];
+        var ch = document.documentElement.clientWidth;
+        ch>750?_html.style.fontSize = "40px":_html.style.fontSize = ch/16+"px";
+    </script>
+
+</head>
+<body>
+    <!--header-->
+    <header>
+        <img src="img/login/top_logo.png" alt="">
+        <span>登录</span>
+    </header>
+
+    <!-- container -->
+    <form class="container">
+        <div class="input1">
+            <input type="text" placeholder="请输入账户">
+            <input type="password" placeholder="请输入密码">
+        </div>
+        <div class="input2">
+            <input type="checkbox"><span>显示密码</span><span>忘记密码?</span>
+        </div>
+        <div class="input3">
+            <input type="checkbox"><span>记住密码</span><span>自动登录</span>
+        </div>
+        <button type="button" class="login">登录</button>
+        <button type="button" class="register">注册</button>
+    </form>
+</body>
+</html>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/login.js"></script>

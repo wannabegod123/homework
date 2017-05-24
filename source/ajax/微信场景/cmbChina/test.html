@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="style/animate.min.css" rel="stylesheet" type="text/css">
+<style>
+.delay_500ms{ -webkit-animation-delay:500ms; animation-delay:500ms; }
+.delay_600ms{ -webkit-animation-delay:600ms; animation-delay:600ms; }
+.delay_700ms{ -webkit-animation-delay:700ms; animation-delay:700ms; }
+.delay_800ms{ -webkit-animation-delay:800ms; animation-delay:800ms; }
+.delay_900ms{ -webkit-animation-delay:900ms; animation-delay:900ms; }
+.delay_1s{ -webkit-animation-delay:1s; animation-delay:1s; }
+.delay_1100ms{ -webkit-animation-delay:1.1s; animation-delay:1.1s; }
+.delay_1200ms{ -webkit-animation-delay:1.2s; animation-delay:1.2s; }
+.delay_1300ms{ -webkit-animation-delay:1.3s; animation-delay:1.3s; }
+.delay_1400ms{ -webkit-animation-delay:1.4s; animation-delay:1.4s; }
+.delay_1500ms{ -webkit-animation-delay:1.5s; animation-delay:1.5s; }
+.delay_1600ms{ -webkit-animation-delay:1.6s; animation-delay:1.6s; }
+.delay_1700ms{ -webkit-animation-delay:1.7s; animation-delay:1.7s; }
+.delay_1800ms{ -webkit-animation-delay:1.8s; animation-delay:1.8s; }
+.delay_1900ms{ -webkit-animation-delay:1.9s; animation-delay:1.9s; }
+</style>
+</head>
+
+<body>
+<button id="testBtn">test</button>
+<div class="mainbox" style="display:none" id="mainbox">
+	<img src="images/indexFlowers02.png" alt="" class="zoomIn animated delay_800ms"/>
+    <img src="images/indexFlight.png" alt="" class="fadeIn animated delay_1s" />
+</div>
+<script>
+document.getElementById("testBtn").onclick=function(){
+	var box=document.getElementById("mainbox");
+	box.style.display="block";
+}
+</script>
+</body>
+</html>

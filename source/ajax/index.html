@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+
+<body>
+<script src="../../scriptBag/jquery-1.9.1.min.js"></script>
+<script>
+
+$(function(){
+	
+	$.ajax({
+		url:"http://datainfo.duapp.com/shopdata/getGoods.php",
+		data:{goodsID:"3"},
+		dataType:"jsonp",
+		success:function(data){
+			//var thisdata=JSON.parse(data);
+			var $body=$("body");
+			if(data){
+				console.log(data);
+				for(var i=0;i<data.length;i++){
+					//console.log(data[i].goodsName);
+					$body.append(createEL(data[i]));
+				}
+			}
+			
+			function createEL(data){
+				var vprice=data.price/data.discount;
+				var box=$('<div><div class="imgbox"><img src="'+
+				data.goodsListImg+'"></div><div class="goodesName">'+
+				data.goodsName+'</div><div><span class="price">'+
+				data.price+'</span><span class="vprice">'+
+				vprice+'</span></div></div>');
+				
+				return box;
+			}
+			
+		}
+	})
+})
+</script>
+
+</body>
+</html>

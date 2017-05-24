@@ -1,0 +1,102 @@
+/* global */
+body{font-family:verdana,"MicroSoft YaHei"}
+
+a,span,div,p,ul,li,ol,b{-webkit-user-select:none;-webkit-tap-highlight-color:rgba(255,255,255,0);}
+
+.xy_c{top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);position:absolute;}
+
+.swiper-slide{position:relative;overflow:auto;width:100%;height:100%;}
+.power-scroll-container .swiper-slide>.slide-wrapper{overflow:auto;}
+
+
+.delay_100ms{ -webkit-animation-delay:100ms; animation-delay:100ms; }
+.delay_200ms{ -webkit-animation-delay:200ms; animation-delay:200ms; }
+.delay_300ms{ -webkit-animation-delay:300ms; animation-delay:300ms; }
+.delay_400ms{ -webkit-animation-delay:400ms; animation-delay:400ms; }
+.delay_500ms{ -webkit-animation-delay:500ms; animation-delay:500ms; }
+.delay_600ms{ -webkit-animation-delay:600ms; animation-delay:600ms; }
+.delay_700ms{ -webkit-animation-delay:700ms; animation-delay:700ms; }
+.delay_800ms{ -webkit-animation-delay:800ms; animation-delay:800ms; }
+.delay_900ms{ -webkit-animation-delay:900ms; animation-delay:900ms; }
+.delay_1s{ -webkit-animation-delay:1s; animation-delay:1s; }
+.delay_1100ms{ -webkit-animation-delay:1.1s; animation-delay:1.1s; }
+.delay_1200ms{ -webkit-animation-delay:1.2s; animation-delay:1.2s; }
+.delay_1300ms{ -webkit-animation-delay:1.3s; animation-delay:1.3s; }
+.delay_1400ms{ -webkit-animation-delay:1.4s; animation-delay:1.4s; }
+.delay_1500ms{ -webkit-animation-delay:1.5s; animation-delay:1.5s; }
+.delay_1600ms{ -webkit-animation-delay:1.6s; animation-delay:1.6s; }
+.delay_1700ms{ -webkit-animation-delay:1.7s; animation-delay:1.7s; }
+.delay_1800ms{ -webkit-animation-delay:1.8s; animation-delay:1.8s; }
+.delay_1900ms{ -webkit-animation-delay:1.9s; animation-delay:1.9s; }
+.delay_2s{ -webkit-animation-delay:2s; animation-delay:2s; }
+.delay_2_2s{ -webkit-animation-delay:2.2s; animation-delay:2.2s; }
+.delay_2300ms{ -webkit-animation-delay:2.3s; animation-delay:2.3s; }
+.delay_2400ms{ -webkit-animation-delay:2.4s; animation-delay:2.4s; }
+.delay_2500ms{ -webkit-animation-delay:2.5s; animation-delay:2.5s; }
+.delay_2700ms{ -webkit-animation-delay:2.7s; animation-delay:2.7s; }
+.delay_3s{ -webkit-animation-delay:3s; animation-delay:3s; }
+.delay_5s{ -webkit-animation-delay:5s; animation-delay:5s; }
+
+.manbox{position:absolute;width:94px;height:150px;z-index:2;}
+#picMay{width:100%;}
+.man{display:block;position:absolute;right:0;bottom:0;}
+.man .txt{position:absolute;top:40px;left:-100px;}
+
+.btns{position:absolute;width:94px;height:150px;z-index:9;}
+.btns img{position:absolute;}
+.manbox,
+.btn0{top:590px;left:156px;}
+.btn1{top:495px;left:296px;}
+.btn1 img{left:105px;top:-35px;}
+.btn2{top:315px;left:266px;}
+.btn2 img{right:100px;top:-30px;}
+.btn3{top:140px;left:301px;}
+.btn3 img{left:72px;top:-35px;}
+.btn4{top:-30px;left:259px;}
+.btn4 img{right:90px;top:0;}
+
+.btns img{display:none;}
+.off .off{display:block;}
+.on .on{display:block;}
+
+.page-title{text-align:center;padding:15px 0 50px; display : block;}
+.floors{margin:0 auto;text-align:center;position:relative;z-index:9;}
+
+.footer{position:absolute;bottom:0;left:100%;width:100%;z-index:1;}
+.f2{left:-100%; }
+
+.loading{background:rgba(0,0,0,.3);left:0;top:0;width:100%;height:100%;z-index:99;display:none;}
+.loading p{text-align:center;padding:5px 25px;background: rgba(51, 163, 255, 0.75);font-size:16px;color:#fff;}
+
+/* iPhone 3  */
+@media only screen
+and (device-width : 320px)
+and (device-height : 480px){
+    .page-title{padding:5px 0 5px;}
+    .page-title img{width:35%;}
+    .floors{margin-top:-30px;}
+}
+@media only screen
+and (device-width : 320px)
+and (device-height : 480px)
+and (-webkit-min-device-pixel-ratio: 2){
+    .page-title{padding:5px 0 5px;}
+    .page-title img{width:35%;}
+    .floors{margin-top:-30px;}
+}
+
+/* iPhone 6  */
+@media only screen
+and (device-width : 375px)
+and (device-height : 667px){
+}
+/* iPhone 6 plus  */
+@media only screen
+and (device-width : 414px)
+and (device-height : 736px){
+}
+/* iPhone 5 */
+@media only screen
+and (device-width : 320px)
+and (device-height : 568px){
+}

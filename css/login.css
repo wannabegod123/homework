@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+img,button,input{
+    border:none;
+    outline: none;
+}
+body{
+    background: rgb(242,239,239);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+header{
+    width: 100%;
+    height: 2rem;
+    background: rgb(211, 19, 123);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    text-align: center;
+    overflow: hidden;
+}
+header img{
+   padding: 0.5rem 0 0 0.75rem;
+    float: left;
+}
+header span{
+    display: inline-block;
+    line-height: 2rem;
+    color: white;
+}
+
+.container{
+    width: 100%;
+    font-size:20px;
+}
+.container .input1{
+    padding: 1rem 2rem 1rem 2rem;
+}
+.container .input1 input{
+    width: 100%;
+    zoom: 3;
+    border-radius: 5px;
+    padding: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.container .input2,.container .input3{
+    padding: 0.25rem 2rem 0.25rem 2rem;
+}
+.container .input2 input,.container .input3 input{
+    margin-right: 0.25rem;
+    vertical-align: middle;
+    zoom: 1.25;
+}
+.container .input2 span:nth-child(3){
+    color: red;
+}
+.container .input2 span,.container .input3 span{
+    font-size:25px;
+    margin-right: 0.25rem;
+}
+.container button{
+    width: 80%;
+    height:2rem;
+    margin-bottom: 0.25rem;
+    margin-left: 10%;
+    margin-top:0.25rem;
+    border-radius: 10px;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(211, 19, 123);
+}
+
+
+

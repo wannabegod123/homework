@@ -1,0 +1,145 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "微软雅黑";
+}
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	width: 100%;
+	background: #F2EFEF;
+}
+/*header部分*/
+header{
+	width: 100%;
+	height: 88px;
+	background: #D2137B;
+}
+.head{
+	width: 90%;
+	margin: 0 auto;
+}
+.left{
+	width: 10%;
+	display: block;
+	float: left;
+	margin-top: 20px;
+}
+.font{
+	width: 120px;
+	display: block;
+	float: left;
+	margin-left: 32%;
+	margin-top: 20px;
+}
+/*商品数量及应付金额部分*/
+nav{
+	width: 100%;
+	height: 85px;
+	line-height: 85px;
+	background: #333333;
+	box-sizing: border-box;
+	padding: 0 5px;
+	color: white;
+	font-size: 1.5em;
+}
+.goods_num{
+	float: left;
+}
+.goods_money{
+	float: right;
+}
+.money{
+	color: #E13768;
+}
+/*商品部分*/
+.goodsCar{
+	width: 100%;
+	overflow: hidden;
+	background: white;
+	color: #333333;
+}
+.goods{
+	box-sizing: border-box;
+	width: 100%;
+	padding: 30px 23px;
+	height: 235px;
+	border-bottom: solid 1px #CBCBCB;
+}
+.goods_pto{
+	float: left;
+	width: 30%;
+	height: 175px;
+	background: pink;
+}
+.goods_con{
+	box-sizing: border-box;
+	padding-left: 17px;
+	width: 70%;
+	height: 100%;
+	float: left;
+	font-size: 1.5em;
+	line-height: 43px;
+}
+.top{
+	width: 100%;
+	height: 50%;
+	overflow: hidden;
+	/*background: blue;*/
+}
+.middle{
+	width: 100%;
+	height: 25%;
+	/*background: pink;*/
+}
+.bottom{
+	width: 100%;
+	height: 25%;
+	/*background: red;*/
+}
+.goodsname{
+	width: 80%;
+	float: left;
+}
+.delete{
+	width: 20%;
+	text-align: right;
+	float: right;
+	padding-top: 5px;
+}
+.price{
+	color: #E63569;
+	font-weight: bold;
+}
+.num_title{
+	display: block;
+	float: left;
+}
+.count{
+	float: left;
+}
+.count a{
+	display: block;
+	float: left;
+	width: 55px;
+	height: 42px;
+	background: url(../img/shopCar/bg_line.jpg) repeat-x;
+	line-height: 42px;
+	text-align: center;
+	text-decoration: none;
+	color: #FDFDFD;
+}
+.number{
+	display: block;
+	float: left;
+	width: 75px;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	color: #333333;
+	border: solid 1px #D7D7D7;
+	margin: 0 4px;
+}
+

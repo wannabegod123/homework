@@ -1,0 +1,29 @@
+<project name="project" default="">
+    <property file="application.properties"/>
+    <property name="projectHome" value="."/>
+
+    <target name="build-ci" depends="deploy-ibm,restart-ibm"/>
+
+	<!--
+    <target name="up" description="UPDATE Html">
+        <sshexec host="${server.ibm.ip}" username="root" port="${server.ibm.port}" keyfile="${server.keyfile}"
+                 command="${server.ibm.up}" failonerror="false"/>
+    </target>
+	-->
+    <target name="deploy-ibm" description="--> The deploy target (ibm Env)">
+        <sshexec host="${server.ibm.ip}" username="${server.username}" trust="true" port="${server.ibm.port}"
+                 keyfile="${server.keyfile}" command="${server.ibm.rsync}" />
+    </target>
+	
+    <target name="restart-ibm" description="Restart Server">
+        <sshexec host="${server.ibm.ip}" username="root" port="${server.ibm.port}" keyfile="${server.keyfile}"
+                 command="${server.ibm.restart}" failonerror="false"/>
+    </target>
+
+</project>
+
+
+
+
+
+

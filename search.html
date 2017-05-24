@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search</title>
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/header1.css">
+    <script>
+        var _html = document.getElementsByTagName("html")[0];
+        var ch = document.documentElement.clientWidth;
+        ch>750?_html.style.fontSize = "40px":_html.style.fontSize = ch/16+"px";
+    </script>
+</head>
+<body>
+    <!--header-->
+    <header>
+        <img src="img/home/logo.png" alt="">
+        <div>
+            <img src="img/home/landing.png" alt="">
+            <img src="img/home/top_icon1.png" alt="">
+        </div>
+    </header>
+
+    <!--container-->
+    <form class="container">
+        <div class="left">
+            <img src="img/search/ser_bg.png" alt="">
+            <input type="search" placeholder="请输入搜索内容">
+            <span>x</span>
+        </div>
+        <div class="right">
+            <button type="submit">搜索</button>
+        </div>
+    </form>
+
+    <!--footer-->
+    <footer>
+        <ul>
+            <li class="footer_li1">
+                <img src="img/search/foot_bg1.png" alt="">
+                <p>首页</p>
+            </li>
+            <li class="footer_li2">
+                <img src="img/search/foot_bg2.png" alt="">
+                <p>分类</p>
+            </li>
+            <li class="footer_li3">
+                <img src="img/search/foot_icon3.png" alt="">
+                <p>搜索</p>
+            </li>
+            <li class="footer_li4">
+                <img src="img/home/more.png" alt="">
+                <p>更多</p>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/search.js"></script>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册sign up</title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<script>
+    var _html = document.getElementsByTagName('html')[0];
+    var ch = document.documentElement.clientWidth;
+    ch>750?_html.style.fontSize = "40px":_html.style.fontSize = ch/26+"px";
+</script>
+<body>
+<header>
+    <img src="img/login/top_logo.png" alt="">
+    <span>注册</span>
+</header>
+<div class="content">
+    <p id="output"></p>
+    <div class="input">
+        <div>
+            <span>账户名称:</span>
+            <input type="text" placeholder="请输入账户" id="account">
+        </div>
+        <div>
+            <span>登录密码:</span>
+            <input type="password" placeholder="请输入密码" id="password">
+        </div>
+        <div>
+            <span>确认密码:</span>
+            <input type="password" placeholder="请输入密码" id="repassword">
+        </div>
+    </div>
+    <div class="input2">
+        <input type="checkbox" class="zoom">
+        <span><a href="#">我已阅读并接受走秀网服务条款</a></span>
+    </div>
+    <button id="submit">注册</button>
+</div>
+</body>
+</html>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/register.js"></script>

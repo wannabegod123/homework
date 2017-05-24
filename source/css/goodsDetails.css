@@ -1,0 +1,71 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+/*头部公用*/
+body{
+	background: #F2EFEF;
+}
+header{
+	width: 100%;
+	height: 68px;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+header section{
+	background: url(../img/search/top_bgline.png) repeat-x;
+	width: 95%;
+	height: 68px;
+	margin: 0 auto;
+	padding-right: 5%;
+}
+header section logo{
+	float: left;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.btn1{
+	float: right;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.btn2{
+	float: right;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+header section span{
+	float: right;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+
+.goodsDetails{
+	width: 100%;
+	margin-top: 78px;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+.goodsDetailsPto{
+	width: 100%;
+	padding-bottom: 20px;
+}
+.goodsDetailsPto img{
+	width: 100%;
+}
+.goodsDetailsCon{
+	padding-bottom: 20px;
+	line-height: 20px;
+}
+
+
+
+
+

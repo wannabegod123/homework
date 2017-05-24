@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html class="ui-viewport-640 mobile ks-webkit600 ks-webkit" lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="cleartype" content="on">
+    <title>May的奇妙旅程</title>
+    <meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">
+    <script src="script/jquery-1.8.2.js"></script>
+    <link href="style/aio.min.css" rel="stylesheet" type="text/css">
+    <link href="style/animate.min.css" rel="stylesheet" type="text/css">
+    <script src="style/aio.min.js"></script>
+    <link href="style/ibm.css" rel="stylesheet" type="text/css">
+    <script>
+        //获取浏览器页面可见高度和宽度
+        var _PageHeight = document.documentElement.clientHeight,
+                _PageWidth = document.documentElement.clientWidth;
+        //计算loading框距离顶部和左部的距离（loading框的宽度为215px，高度为61px）
+        var _LoadingTop = _PageHeight > 61 ? (_PageHeight - 61) / 2 : 0,
+                _LoadingLeft = _PageWidth > 215 ? (_PageWidth - 215) / 2 : 0;
+        //在页面未加载完毕之前显示的loading Html自定义内容
+        var _LoadingHtml = '<div id="loadingDiv" style="position:absolute;left:0;width:100%;height:100%;px;top:0;background:#fff;z-index:10000;"><div class="login_inner" style=" top:' + _LoadingTop + 'px;"></div></div>';
+        //呈现loading效果
+        document.write(_LoadingHtml);
+
+        window.onload = function () {
+            var loadingMask = document.getElementById('loadingDiv');
+            loadingMask.parentNode.removeChild(loadingMask);
+        };
+
+        //监听加载状态改变
+        document.onreadystatechange = completeLoading;
+
+        //加载状态为complete时移除loading效果
+        function completeLoading() {
+//            if (document.readyState == "complete") {
+//                var loadingMask = document.getElementById('loadingDiv');
+//                loadingMask.parentNode.removeChild(loadingMask);
+//            }
+        }
+    </script>
+</head>
+<body>
+<!--<img src="images/avatar.jpg" alt="" style="opacity: 0;position:absolute;"/>-->
+<!-- container -->
+<div class="container">
+    <div class="content">
+        <div class="content-body">
+            <div class="ui-loading js-loading" style="display: none;">
+                <i class="fa fa-circle-o-notch fa-spin- fa-3x">
+                </i>
+            </div>
+            <div class="music_btn active"></div>
+            <div class="power-scroll-container js-power-scroll-container" style="">
+                <div class="swiper-container js-power-scroll" data-options="{&quot;hashNav&quot;:false,&quot;mode&quot;:&quot;vertical&quot;,&quot;loop&quot;:false,&quot;shadow&quot;:false}">
+                    <div class="swiper-wrapper slide_index">
+                        <div class="swiper-slide page_index" data-hash="index" style="">
+                            <div class="slide-wrapper">
+                                <h1 class="page-title fadeIn animated"> <img src="images/title.png" alt="不只是梦想" class=" animated infinite" /> </h1>
+                                <div class="floors">
+                                    <img src="images/floor.png" alt="" class="fadeIn animated delay_100ms" />
+                                    <div class="manbox" data-now="0">
+                                        <span class="man bounceIn animated delay_1500ms" id="may">
+                                            <img src="images/may.png" id="picMay" />
+                                        </span>
+                                    </div>
+                                    <!--<div class="btns btn0" data-target="0"></div>-->
+                                    <div class="btns btn1 fadeIn animated delay_1200ms off" data-target="" data-link="http://eqxiu.com/s/Y5z6Ziz6" data-pic="mayGrow.png">
+                                        <span class="buttons"></span>
+                                        <img src="images/step1.png" alt="" class="on qqflash animated delay_200ms infinite" />
+                                    </div>
+                                    <div class="btns btn2 fadeIn animated delay_900ms off" data-target="" data-link="http://eqxiu.com/s/ru5SJDhT" data-pic="mayBlueming.png">
+                                        <span class="buttons"></span>
+                                        <img src="images/step2Gray.png" alt="" class="off"/>
+                                        <img src="images/step2.png" alt="" class="on qqflash animated delay_300ms infinite"/>
+                                    </div>
+                                    <div class="btns btn3 fadeIn animated delay_600ms off" data-target="" data-link="http://eqxiu.com/s/AEFVDsu5" data-pic="mayProfessional.png">
+                                        <span class="buttons"></span>
+                                        <img src="images/step3Gray.png" alt="" class="off"/>
+                                        <img src="images/step3.png" alt="" class="on qqflash animated delay_400ms infinite"/>
+                                    </div>
+                                    <div class="btns btn4 fadeIn animated delay_300ms off" data-target="" data-link="http://u.eqxiu.com/s/bhsQDSiV" data-pic="maySucceed.png">
+                                        <span class="buttons"></span>
+                                        <img src="images/step4Gray.png" alt="" class="off"/>
+                                        <img src="images/step4.png" alt="" class="on qqflash animated delay_500ms infinite"/>
+                                    </div>
+                                </div>
+                                <div class="footer f1 bgmove infinite animated">
+                                    <img src="images/blueFlagFooter.png" alt="" class=" fadeIn animated delay_600ms" />
+                                </div>
+                                <div class="footer f2 bgmove0 infinite animated">
+                                    <img src="images/blueFlagFooter.png" alt="" class=" fadeIn animated delay_600ms" />
+                                </div>
+                                <div class="loading absolute">
+                                    <p class="">加载中...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="landscape_notice">
+    <div class="text-center font-size-28 c-white">
+        <i class="fa fa-4x fa-mobile"></i><br><span>请将屏幕竖向浏览</span>
+    </div>
+</div>
+<script>
+    (new MobileSlider()).init();
+</script>
+<script src="style/wei-user.js"></script>
+</body>
+</html>

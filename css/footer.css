@@ -1,0 +1,35 @@
+/*footer*/
+*{
+    margin:0;
+    padding:0;
+}
+footer{
+    position: fixed;
+    width: 100%;
+    height:2rem;
+    bottom:0;
+    color: white;
+}
+footer ul{
+    overflow: hidden;
+}
+footer .footer_li1{
+    background:rgb(210,18,122);
+}
+footer ul li{
+    float: left;
+    width: 25%;
+    height:2rem;
+    text-align: center;
+    background: rgb(82,72,77);
+    padding:0 1rem;
+    box-sizing: border-box;
+}
+footer ul li img{
+    vertical-align: middle;
+    width: 16%;
+}
+footer ul li p{
+    font-size: 17px;
+    height:0.5rem;
+}
